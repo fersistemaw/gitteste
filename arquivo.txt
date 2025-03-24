@@ -4,3 +4,22 @@ git add .
 git commit -a -m "Commit teste"
 git config --global user.email "fersistemaw@gmail.com"
 git config --global user.nome "Fernando"
+
+
+
+
+…or create a new repository on the command line
+echo "# gitteste" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/fersistemaw/gitteste.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/fersistemaw/gitteste.git
+git branch -M main
+git push -u origin main
+
+
+
