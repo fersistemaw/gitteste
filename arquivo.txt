@@ -1,0 +1,6 @@
+git status
+git init
+git add .
+git commit -a -m "Commit teste"
+git config --global user.email "fersistemaw@gmail.com"
+git config --global user.nome "Fernando"
